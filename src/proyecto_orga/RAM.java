@@ -16,11 +16,11 @@ import java.util.Vector;
  *
  * @author Gabriel
  */
-public class Datos {
+public class RAM {
 
     private Vector<Integer> Datos;
 
-    public Datos() {
+    public RAM() {
         this.Datos = new Vector();
         File d = new File("./src/proyecto_orga/Datos.txt");
         String line = null;
